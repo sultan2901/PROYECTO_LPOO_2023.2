@@ -8,11 +8,11 @@ public ref class Personal :Persona {
 		double Sueldo;
 		String^ IdEmpleado;
 		String^ Cargo;
-		String^ Estado_Contrato;
+		String^ EstadoContrato;
 
 	public:
 		Personal();
 		Personal(int Codigo, String^ Nombre, String^ ApellidoPat, String^ ApellidoMat, int Edad, String^ Genero, String^ DNI,
-			     String^ Telefono, double Sueldo, String^ IdEmpleado, String^ Cargo, String^ Estado_Contrato);
+			     String^ Telefono, double Sueldo, String^ IdEmpleado, String^ Cargo, String^ EstadoContrato);
 
 };
