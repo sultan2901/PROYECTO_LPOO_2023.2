@@ -3,6 +3,7 @@ using namespace System;
 
 public ref class MetodoDePago {
 	private:
+		int Codigo;
 		String^ TitularTarjeta;
 		String^ NumTarjeta;
 		String^ FechaVencimiento;
@@ -10,5 +11,5 @@ public ref class MetodoDePago {
 
 	public:
 		MetodoDePago();
-		MetodoDePago(String^ TitularTarjeta, String^ NumTarjeta, String^ FechaVencimiento, String^ NumCVV_CVC);
+		MetodoDePago(int Codigo, String^ TitularTarjeta, String^ NumTarjeta, String^ FechaVencimiento, String^ NumCVV_CVC);
 };

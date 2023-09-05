@@ -13,5 +13,5 @@ public ref class Usuario : Persona {
 	public:
 	Usuario();
 	Usuario(int Codigo, String^ Nombre, String^ ApellidoPat, String^ ApellidoMat, int Edad, String^ Genero,
-		String^ DNI, String^ Telefono, List<MetodoDePago^>^ objMetodoDePago, String^ FechaDeNacimiento);
+			String^ DNI, String^ Telefono, List<MetodoDePago^>^ objMetodoDePago, String^ FechaDeNacimiento);
 };

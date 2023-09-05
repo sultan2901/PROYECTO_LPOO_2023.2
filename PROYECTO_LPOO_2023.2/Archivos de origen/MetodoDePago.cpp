@@ -4,7 +4,8 @@ MetodoDePago::MetodoDePago() {
 
 };
 
-MetodoDePago::MetodoDePago(String^ TitularTarjeta, String^ NumTarjeta, String^ FechaVencimiento, String^ NumCVV_CVC) {
+MetodoDePago::MetodoDePago(int Codigo, String^ TitularTarjeta, String^ NumTarjeta, String^ FechaVencimiento, String^ NumCVV_CVC) {
+	this->Codigo = Codigo;
 	this->TitularTarjeta = TitularTarjeta;
 	this->NumTarjeta = NumTarjeta;
 	this->FechaVencimiento = FechaVencimiento;
