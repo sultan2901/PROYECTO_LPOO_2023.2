@@ -3,7 +3,6 @@
 using namespace System;
 
 public ref class Persona{
-
 private:
 	int Codigo;
 	String^ Nombres;

@@ -3,7 +3,6 @@
 using namespace System;
 
 public ref class MetodoPagoAuxiliar{
-
 private:
 	int Codigo;
 	String^ TitTarjetaAux;
