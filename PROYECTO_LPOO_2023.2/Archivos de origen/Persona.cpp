@@ -4,7 +4,7 @@ Persona::Persona() {
 
 };
 
-Persona::Persona(int Codigo, String^ Nombre, String^ ApellidoPat, String^ ApellidoMat, int Edad, String^ Genero, String^ DNI,
+Persona::Persona(int Codigo, String^ Nombre, String^ ApellidoPat, String^ ApellidoMat, String^ DNI, int Edad, String^ Genero,
 	String^ Telefono) {
 
 	this->Codigo = Codigo;

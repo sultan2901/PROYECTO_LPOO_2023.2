@@ -4,17 +4,17 @@ using namespace System;
 
 public ref class Persona {
 	private:
-		int		Codigo;
+		int	Codigo;
 		String^ Nombre;
 		String^ ApellidoPat;
 		String^ ApellidoMat;
-		int		Edad;
-		String^ Genero;
 		String^ DNI;
+		int	Edad;
+		String^ Genero;
 		String^ Telefono;
 
 	public:
 		Persona();
-		Persona(int Codigo, String^ Nombre, String^ ApellidoPat, String^ ApellidoMat, int Edad, String^ Genero, String^ DNI,
-				String^ Telefono);
+		Persona(int Codigo, String^ Nombre, String^ ApellidoPat, String^ ApellidoMat, String^ DNI, int Edad, String^ Genero,
+			String^ Telefono);
 };

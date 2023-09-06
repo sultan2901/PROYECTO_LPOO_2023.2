@@ -7,11 +7,11 @@ using namespace System::Collections::Generic;
 
 public ref class Usuario : Persona {
 	private:
-	List<MetodoDePago^>^ objMetodoDePago;
-	String^ FechaDeNacimiento;
-
+		1String^ FechaDeNacimiento;
+		List<MetodoDePago^>^ objMetodoDePago;
+	
 	public:
-	Usuario();
-	Usuario(int Codigo, String^ Nombre, String^ ApellidoPat, String^ ApellidoMat, int Edad, String^ Genero,
+		Usuario();
+		Usuario(int Codigo, String^ Nombre, String^ ApellidoPat, String^ ApellidoMat, int Edad, String^ Genero,
 			String^ DNI, String^ Telefono, List<MetodoDePago^>^ objMetodoDePago, String^ FechaDeNacimiento);
 };
