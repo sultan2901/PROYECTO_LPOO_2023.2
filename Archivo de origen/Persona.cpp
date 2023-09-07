@@ -4,7 +4,7 @@ Persona::Persona() {
 
 };
 
-Persona::Persona(int Codigo, String^ Nombres, String^ ApellidoPat, String^ ApellidoMat, String^ DNI, int Edad, String^ Genero, String^ Telefono) {
+Persona::Persona(int Codigo, String^ Nombres, String^ ApellidoPat, String^ ApellidoMat, String^ DNI, int Edad, String^ Genero, String^ Telefono,String^ Contrasena) {
 	this->Codigo = Codigo;
 	this->Nombres = Nombres;
 	this->ApellidoPat = ApellidoPat;
@@ -12,4 +12,5 @@ Persona::Persona(int Codigo, String^ Nombres, String^ ApellidoPat, String^ Apell
 	this->Edad = Edad;
 	this->Genero = Genero;
 	this->Telefono = Telefono;
+	this->Contrasena = Contrasena;
 };
