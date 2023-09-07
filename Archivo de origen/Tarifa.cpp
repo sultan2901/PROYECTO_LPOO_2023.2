@@ -3,11 +3,12 @@
 //Constructor
 Tarifa::Tarifa() {
 
-}
+};
 
-Tarifa::Tarifa(char tipo, int codigo, int DistanciaRecorrida) {
+Tarifa::Tarifa(char tipo, int codigo, ^ String^ ParaderoInicio, String^ ParaderoFin) {
 	this->tipo = tipo;
 	this->codigo = codigo;
-	this->DistanciaRecorrida = DistanciaRecorrida;
-}
+	this->ParaderoInicio = ParaderoInicio;
+	this->ParaderoFin = ParaderoFin;
+};
 

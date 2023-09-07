@@ -5,12 +5,12 @@ using namespace System;
 public ref class DatosPromocionar{
 private:
 	int Codigo;
-	int AntiguedadUsu;
-	int ActividadUsu;
+	int TimeSoftware;
+	int TimeActive;
 	int CantReportes;
 	String^ CondicionUsu;
 
 public:
 	DatosPromocionar();
-	DatosPromocionar(int Codigo, int AntiguedadUsu, int ActividadUsu, int CantReportes, String^ CondicionUsu);
+	DatosPromocionar(int Codigo, int TimeSoftware, int TimeActive, int CantReportes, String^ CondicionUsu);
 };

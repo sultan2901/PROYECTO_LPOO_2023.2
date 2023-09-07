@@ -1,5 +1,5 @@
-#pragma once
-#include "Tarifa.h"
+	#pragma once
+
 using namespace System;
 
 public ref class Paradero {
@@ -11,11 +11,11 @@ public ref class Paradero {
 		double x_paradero;
 		double y_paradero;
 		int frecuencia;
-		Tarifa^ UnicaTarifa;
+		double Distancia;
 	//metodos
 	public:
 		Paradero();
-		Paradero(int codigo, String^ Nombre,  double x_paradero, double y_paradero, int frecuencia, Tarifa^ UnicaTarifa);
+		Paradero(int codigo, String^ Nombre,  double x_paradero, double y_paradero, int frecuencia, double Distancia);
 
 };
 

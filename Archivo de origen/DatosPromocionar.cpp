@@ -4,10 +4,10 @@ DatosPromocionar::DatosPromocionar() {
 
 };
 
-DatosPromocionar::DatosPromocionar(int Codigo, int AntiguedadUsu, int ActividadUsu, int CantReportes, String^ CondicionUsu) {
+DatosPromocionar::DatosPromocionar(int Codigo, int TimeSoftware, int TimeActive, int CantReportes, String^ CondicionUsu) {
 	this->Codigo = Codigo;
-	this->AntiguedadUsu = AntiguedadUsu;
-	this->ActividadUsu = ActividadUsu;
+	this->TimeSoftware = TimeSoftware;
+	this->TimeActive = TimeActive;
 	this->CantReportes = CantReportes;
 	this->CondicionUsu = CondicionUsu;
 };

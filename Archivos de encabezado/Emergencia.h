@@ -10,5 +10,4 @@ private:
 public:
 	Emergencia();
 	Emergencia(bool señal, int codigo, char tipo);
-
 };

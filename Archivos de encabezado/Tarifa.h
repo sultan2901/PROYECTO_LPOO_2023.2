@@ -7,10 +7,11 @@ public ref class Tarifa {
 	private:
 		char tipo;
 		int codigo;
-		int DistanciaRecorrida;
+		String^ ParaderoInicio;
+		String^ ParaderoFin;
 	//metodos	
 	public:
 		Tarifa();
-		Tarifa(char tipo , int codigo , int DistanciaRecorrida);
+		Tarifa(char tipo , int codigo , ^String^ ParaderoInicio, String^ ParaderoFin);
 
 };

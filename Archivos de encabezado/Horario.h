@@ -11,10 +11,10 @@ private:
 	String^ Start;
 	String^ End;
 	String^ Turno;
-	String^ Empelado;
+	String^ Id_Empleado;
 	String^ Dia;
 
 public:
 	Horario();
-	Horario(int codigo,String^ Start,String^ End,String^ Turno,String^ Empelado, String^ Dia);
+	Horario(int codigo, String^ Start, String^ End, String^ Turno, String^ Id_Empleado, String^ Dia);
 };

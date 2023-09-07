@@ -1,11 +1,11 @@
 #include "Gestion.h"
 
-Gestion::Gestion(){
+Gestion::Gestion() {
 	//Constructor
-}
+};
 
 Gestion::Gestion(int codigo, String^ nom_ruta, int cant_usua_time, int cant_usua_ruta,
-	         int cant_usua_par, String^ nom_parada, String^ ID_empleado, double media_califica) {
+	int cant_usua_par, String^ nom_parada, String^ ID_empleado, double media_califica) {
 
 	this->codigo = codigo;
 	this->nom_ruta = nom_ruta;
@@ -16,4 +16,4 @@ Gestion::Gestion(int codigo, String^ nom_ruta, int cant_usua_time, int cant_usua
 	this->ID_empleado = ID_empleado;
 	this->media_califica = media_califica;
 
-}
+};
