@@ -18,5 +18,5 @@ private:
 	
 private:
 	Usuario();
-	Usuario(int Codigo, String^ Nombres, String^ ApellidoPat, String^ ApellidoMat, String^ DNI, int Edad, String^ Genero, String^ Telefon, String^ FechaNacimiento. double X_Usario, double Y_Usuario, bool Registrado, Tarjeta^ ObjTarjeta, DatosPromocionar^ ObjDatosPromocionar, list<Reportes^>^ ListaReportes);
+	Usuario(int Codigo, String^ Nombres, String^ ApellidoPat, String^ ApellidoMat, String^ DNI, int Edad, String^ Genero, String^ Telefon, String^ Contrasena, String^ FechaNacimiento. double X_Usario, double Y_Usuario, bool Registrado, Tarjeta^ ObjTarjeta, DatosPromocionar^ ObjDatosPromocionar, list<Reportes^>^ ListaReportes);
 };
